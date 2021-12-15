@@ -11,6 +11,12 @@
     margin:auto;
 }
 
+.header {
+  font-family: "Comic Sans MS", "Comic Sans";
+  color: white;
+  font-size: 4em;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
