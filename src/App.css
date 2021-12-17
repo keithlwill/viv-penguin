@@ -15,6 +15,26 @@
   font-family: "Comic Sans MS", "Comic Sans";
   color: white;
   font-size: 4em;
+  margin: 0;
+}
+
+.imagef {
+  height: calc(40vh*1.25);
+  width: 40vh;
+  border-radius: 10px;
+}
+
+@keyframes example {
+  from   {top:-100px;}
+  to {top: 100%;}
+}
+
+/* The element to apply the animation to */
+.animation {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation: example linear infinite;
 }
 
 .App-logo {
