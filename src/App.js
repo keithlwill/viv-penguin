@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Penguin from './components/Penguin';
 import Header from './components/Header';
 import Snowfall from './components/Snowfall';
-import { Component } from 'react/cjs/react.production.min';
+import Snowfall2 from './components/Snowfall2'
 
 function App() {
   return (
