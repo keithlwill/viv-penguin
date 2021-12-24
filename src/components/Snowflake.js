@@ -1,5 +1,4 @@
 import React from "react";
-import snow from "../images/penguins/snowflake.png"
 
 class Snowflake extends React.Component {
     getPositions = (num) => {

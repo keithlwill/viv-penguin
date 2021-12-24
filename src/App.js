@@ -2,7 +2,6 @@ import './App.css';
 import Penguin from './components/Penguin';
 import Header from './components/Header';
 import Snowfall from './components/Snowfall';
-import Snowfall2 from './components/Snowfall2'
 
 function App() {
   return (
