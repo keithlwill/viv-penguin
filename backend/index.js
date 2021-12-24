@@ -2,7 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require("cors")
 
-mongoose.connect('mongodb+srv://user:beans@cluster0.4syti.mongodb.net/Cluster0?retryWrites=true&w=majority');
+//establish mongoDB connection lolz
+require("./database/mongoose-setup");
 
 const connection = mongoose.connection;
 
