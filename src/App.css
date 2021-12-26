@@ -2,20 +2,36 @@
   text-align: center;
 }
 
-.Penguin {
-  position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
-}
-
 .header {
   font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
   color: white;
   font-size: 4em;
   margin: 0;
+}
+
+.penguin {
+  margin-top: 24vh;
+}
+ 
+.counter {
+  width: 12vh!important;
+  height: 12vh!important;
+  background: #F1F1F1;
+  border-style: inset;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 5vh;
+  font-size: 1.5rem;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .imagef {
