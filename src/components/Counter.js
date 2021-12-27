@@ -86,7 +86,14 @@ class Counter extends React.Component {
         this.name = null;
         this.setState({showModal: true});
     }
-    
+
+    handleDate = (name, date) => {
+        let day = new Date(date).toLocaleDateString();
+        let time = new Date(date).toLocaleTimeString();
+        let ret = `${name} thought about Viviana on ${day} at ${time}`;
+        return ret;
+    }
+     
     render() {
         return(
             <div style = {{height: '100%', width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}} id = 'main'>
@@ -109,13 +116,13 @@ class Counter extends React.Component {
                     {this.state.thoughts.map(thought => {
                         return(
                             <div>
-                                {`${thought.name} thought about Viviana on ${new Date(thought.time).toLocaleString()}`}
+                                {this.handleDate(thought.name, thought.time)}
                             </div>
                         )
                     })}
                 </div>
                 <Modal
-                    title="What is your name"
+                    title="Who are you? 🤨"
                     visible={this.state.showModal}
                     onOk={this.handleOk}
                     onCancel={() => this.setState({showModal: false})}>

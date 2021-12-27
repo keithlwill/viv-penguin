@@ -4,7 +4,7 @@ class Snowflake extends React.Component {
     getPositions = (num) => {
         let arr = [];
         for(let i = 0; i < num; i++) {
-            arr.push([Math.random(), Math.random()*10+1 + 's', Math.random()*-2-1 + 's']);
+            arr.push([Math.random(), Math.random()*20+1 + 's', Math.random()*-2-1 + 's']);
         }
         console.log(arr);
         return arr;
