@@ -5,7 +5,7 @@ import {Modal, Input, Button} from 'antd';
 import 'antd/dist/antd.css';
 import Penguin from './Penguin';
 
-const url = "https://viv-penguin-backend.herokuapp.com";
+const url = "https://viv-penguin.uc.r.appspot.com";
 
 class Counter extends React.Component {
     
